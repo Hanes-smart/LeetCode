@@ -22,9 +22,5 @@ class Solution:
 
         output = output if not negative else -output
 
-        if MAX < output:
-            return MAX
-        if MIN > output:
-            return MIN
-
-        return output 
+        return min(max(MIN,output),MAX)
+     
