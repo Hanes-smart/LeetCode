@@ -7,7 +7,7 @@ class Solution:
                 res = i 
             count += (1 if i == res else -1)
 
-        return i
+        return res
 
 
         
